@@ -130,7 +130,7 @@ for (let char of string) {
         default: 
             counter++;
             placeholder += char;
-            if (counter === string.length) {
+            if (counter === string.length) { // if it's our last character, then we populate cell4 and print
                 cell4 = placeholder;
                 placeholder = ``; // setting placeholder back to empty
                 console.log(cell1, cell2, cell3, cell4);
@@ -143,4 +143,3 @@ for (let char of string) {
             break;
         }
     }
-
